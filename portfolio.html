@@ -70,6 +70,9 @@
             <button type="button" class="filter-button">Веб-сайти</button>
           </li>
           <li class="filter">
+            <button type="button" class="filter-button">Додатки</button>
+          </li>
+          <li class="filter">
             <button type="button" class="filter-button">Дизайн</button>
           </li>
           <li class="filter">
@@ -280,6 +283,20 @@
             </a>
           </li>
         </ul>
+      </div>
+
+      <div class="mailing-form-body">
+        <p class="mailing-form-title">Підпишіться на розсилку</p>
+        <form class="mailing-form">
+          <input type="email" name="user_email" placeholder="E-mail" class="mailing-form-email"
+            pattern="^[a-zA-Z]+[1-9]+$" minlength="2" required>
+          <button type="submit" class="mailing-form-button">
+            <span class="mailing-form-button-text">Підписатися</span>
+            <svg class="mailing-form-button-img" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </div>
   </footer>
